@@ -21,7 +21,6 @@ public:
 private:
 	TextureManager() {}
 
-	// 함수 추가
 	static TextureManager* Instance()
 	{
 		if (s_pInstance == 0)
